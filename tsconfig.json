@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2017",
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "declaration": true
+  },
+  "include": ["src"]
+}
