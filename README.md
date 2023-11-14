@@ -59,15 +59,15 @@ vmeo.download(videoUrl, options);
 
 ### Event Listeners
 
-- onProgress: A callback function that receives the download progress as a percentage.
-- onSuccess: A callback function invoked when the download is completed successfully.
-- onFailure: A callback function invoked if an error occurs during the download.
+- **onProgress:** A callback function that receives the download progress as a percentage.
+- **onSuccess:** A callback function invoked when the download is completed successfully.
+- **onFailure:** A callback function invoked if an error occurs during the download.
 
 ### Download Options
 
-- quality: Specify the desired video quality ('240p', '360p', '540p', '720p', '1080p').
-- outputPath: The file path where the downloaded video will be saved.
-- override: (Optional) Set to true if you want to override an existing file at the specified path.
+- **quality:** Specify the desired video quality ('240p', '360p', '540p', '720p', '1080p').
+- **outputPath:** The file path where the downloaded video will be saved.
+- **override:** (Optional) Set to true if you want to override an existing file at the specified path.
 
 ## Publish
 
