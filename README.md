@@ -7,7 +7,7 @@ A lightweight Vimeo client
 **pnpm:**
 
 ```bash
-pnpm add @katrieltsepelevish/vmeo
+> pnpm add @katrieltsepelevish/vmeo
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ const videoUrl = "https://vimeo.com/VIDEO_ID";
 // Specify download options
 const options: DownloadOptions = {
   quality: "720p",
-  outputPath: outputPath: Path.join(__dirname, "/path/to/save/video.mp4"),
+  outputPath: Path.join(__dirname, "/path/to/save/video.mp4"),
   override: false,
   onProgress: (percentage) => {
     console.log(`Downloading: ${percentage.toFixed(2)}%`);
