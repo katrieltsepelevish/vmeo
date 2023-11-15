@@ -22,7 +22,7 @@ export interface DownloadOptions {
   // The file path where the video will be downloaded
   outputPath: string;
 
-  // // Optional: Flag to override the existing video file at the specified path
+  // Optional: Flag to override the existing video file at the specified path
   override?: boolean;
 
   // Optional: Callback function to receive download progress updates
