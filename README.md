@@ -77,6 +77,6 @@ vmeo.download(videoUrl, options);
 Make sure to bump the version before publishing
 
 ```bash
-yarn build
+pnpm run build
 npm publish --access=public
 ```
